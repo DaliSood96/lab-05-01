@@ -1,11 +1,11 @@
 <?php header('Content-Type: application/json');
 
 
-$servername = 'TO DO 1';
-$username = 'TO DO 2';
-$password = 'TO DO 3';
-$database = 'TO DO 4';
-$table = 'TO DO 5';
+$servername = 'inventory-db-dali-instance-1.ckdep8chbjij.ap-south-1.rds.amazonaws.com';
+$username = 'master';
+$password = 'lab-password';
+$database = 'inventory';
+$table = 'products';
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
